@@ -1,4 +1,4 @@
-import type { LegacyRef } from 'react';
+import type { LegacyRef, ReactNode } from 'react';
 import type React from 'react';
 import type { LayoutRectangle, StyleProp, ViewStyle } from 'react-native';
 import type Animated from 'react-native-reanimated';
@@ -193,4 +193,5 @@ export interface DropInViewProps extends ItemStyled {
     sectionIndex: number,
     rowIndex: number
   ) => ViewStyle;
+  children: ReactNode;
 }

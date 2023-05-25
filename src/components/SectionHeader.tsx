@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import {
   StyleProp,
   StyleSheet,
@@ -14,6 +14,7 @@ export const SectionHeader: React.FC<{
   style?: StyleProp<ViewStyle>;
   renderColumnItem: (column: Column, index: number) => React.ReactNode;
   onSectionPress: (index: number) => void;
+  children: ReactNode;
 }> = ({
   index,
   renderColumnItem,
