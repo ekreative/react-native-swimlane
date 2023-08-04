@@ -47,7 +47,6 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "^7.15.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@react-native-community/eslint-config": "^2.0.0",
     "@release-it/conventional-changelog": "^2.0.0",
@@ -156,6 +155,7 @@
     ]
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "@babel/preset-typescript": "^7.21.5"
   }
 }
