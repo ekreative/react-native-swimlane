@@ -61,6 +61,7 @@ export const SectionRow = <T extends object>({
       if (item) {
         if (hoveredItem !== `${sectionId}-${item.columnId}`) {
           setHoveredItem(`${sectionId}-${item.columnId}`);
+          // @ts-ignore
           onItemHover(item.columnId, sectionId, rowIndex, item.id);
         }
         return;
